@@ -1,9 +1,9 @@
 ## 项目说明
-    Typescript：[@typescript](https://www.tslang.cn/docs/home.html)
-    webpack：[@webpack](https://www.webpackjs.com/concepts/)
-    
+Typescript：[@typescript](https://www.tslang.cn/docs/home.html)
+webpack：[@webpack](https://www.webpackjs.com/concepts/)
+
 ## 知识点
-    ```
+```
     0. npm init -y # 使用npm默认package.json配置
         0-1. npm init # 或者使用交互式自行配置，遇到选项如果直接敲回车即使用括号内的值
         0-2. src：用来存放项目的开发资源，在 src 下创建如下文件夹：
@@ -46,4 +46,4 @@
     8. ts引js框架
         4-1. npm install --save-dev @types/jquery
         4-2. npm install jquery
-    ```
+```
