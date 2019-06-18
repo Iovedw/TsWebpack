@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "base-64": "registry:npm/base-64#0.1.0+20160522191830"
+  },
+  "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20170310222111"
+  }
+}
