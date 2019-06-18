@@ -1,8 +1,9 @@
 ## 项目说明
-    Typescript：[Typescript](https://www.tslang.cn/docs/home.html)
-    webpack：[webpack：](https://www.webpackjs.com)
+    Typescript：[@typescript](https://www.tslang.cn/docs/home.html)
+    webpack：[@webpack](https://www.webpackjs.com/concepts/)
     
 ## 知识点
+    ```
     0. npm init -y # 使用npm默认package.json配置
         0-1. npm init # 或者使用交互式自行配置，遇到选项如果直接敲回车即使用括号内的值
         0-2. src：用来存放项目的开发资源，在 src 下创建如下文件夹：
@@ -36,13 +37,13 @@
     6. npm run start # 启动本地服务
         #若报错 (compilation.mainTemplate.applyPluginsWaterfall is not a function)
             解决方法：1.npm uninstall html-webpack-plugin   2.npm install html-webpack-plugin  
-   *6-1. npm run build # 项目打包
+    6-1. npm run build # 项目打包
         # 若报错 (ERROR in Entry module not found: Error: Can't resolve 'ts-loader' in '/Users/dw/Typescript/test')
             解决方法：npm install ts-loader --save
-
     7.tsc --init
         3-1. 配置tsconfig 将js / ts 拆分两个文件夹
         3-2. 终端 -> 运行生成任务（实时更改）
     8. ts引js框架
         4-1. npm install --save-dev @types/jquery
         4-2. npm install jquery
+    ```
